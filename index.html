@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BASIC PROGRAMMING GUIDE</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+	integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" 
+	rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+	referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header id="home">
+		<nav class="navbar">
+			<div class="navbar-header">
+				<img src="assets/logobpg5.png"  width="150" height="40" alt="KIT KIDS"  class="navbar-header__logo">
+				<button type="button" class="navbar-header__toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div> 
+
+			<ul class="navbar-list">
+				<li>
+					<a href="#home" class="navbar-list__link">início</a>
+				</li>
+				<li>
+					<a href="#intro" class="navbar-list__link">Intro</a>
+				</li>
+				<li>
+					<a href="#tipos" class="navbar-list__link">Linguagens</a>
+				</li>
+				<li>
+					<a href="#galeria" class="navbar-list__link">Galeria</a>
+				</li>
+			</ul>
+
+			<ul class="navbar-icons">
+				<li>
+					<a href="http://www.twitter.com" target="_blank" class="navbar-icons__icon">
+					   <i class="fab fa-twitter"></i>
+					</a>   
+				</li>
+				<li>
+					<a href="http://www.facebook.com" target="_blank" class="navbar-icons__icon">
+					   <i class="fab fa-facebook"></i>
+					</a> 
+				</li>
+				<li>
+					<a href="http://www.instagram.com" target="_blank" class="navbar-icons__icon">
+					   <i class="fab fa-instagram"></i>
+					</a> 
+				</li>
+			</ul>
+		</nav>  
+
+		<div class="hero">
+			<video src="assets/basic.mp4.mp4" autoplay muted loop class="hero__video"></video>
+			<div class="hero-texto">
+				<h1 class="hero-texto__titulo">BASIC <br> <span class="hero-texto__titulo--linha-2"> PROGRAMMING</span> <span class="hero-texto__titulo--linha-3"> GUIDE </span>  </h1>
+				<p class="hero-texto__descricao">Conheça o KIT KIDS, aqui você tem diversos aprendizados, o céu é o limete, teste falando qualquer coisa</p>
+					
+			</div>
+		</div>
+	</header>
+
+	<section id="intro" class="intro">
+		<h2 class="section__titulo">introdução a <span class="section__titulo--destaque">programação</span></h2>
+		<br>
+		<br>
+		<div class="intro-c">
+			<img src="assets/sobre1.png.png" alt="intro" class="intro-c__img">
+			<div class="intro-texto">
+			
+				<h3 class="intro-texto__titulo">1. para que serve a PROGRAMÇÃO </h3>
+				<p>A programação serve para ensinar os computadores a fazerem coisas específicas, como jogos, aplicativos, sites, robôs e muito mais. É como dar instruções para o computador realizar tarefas e resolver problemas de forma automática. Com a programação, podemos criar coisas divertidas, úteis e até mesmo ajudar a resolver problemas importantes no mundo real! </p>
+				<br>
+
+				<h3 class="intro-texto2__titulo">2. onde ela está presente</h3>				
+				<p>A programação esta presente em todo lugar que vamos.Por exemplo, quando jogamos um jogo, usamos aplicativos ou assistimos a vídeos, tudo isso é possível graças à programação. Também é importante porque nos ajuda a fazer coisas incríveis, como ajudar os médicos a cuidar das pessoas, os agricultores a cultivar alimentos e os cientistas a descobrir coisas novas. Então, aprender programação é como aprender a linguagem secreta que faz a magia acontecer nos nossos dispositivos!</p>
+				<br>
+	
+				<h3 class="intro-texto3__titulo">3. o que é algoritimo</h3>			
+				<p>Um algoritmo é como uma lista de passos que você segue para resolver um problema ou realizar uma tarefa. É como seguir as instruções de um jogo ou de um quebra-cabeça para chegar à solução correta. Então, é como um mapa que te guia para alcançar um objetivo.</p>
+				<br>
+				
+			</div>
+		</div>
+    </section>
+
+
+	<section id="video1" class="video1">
+		<h3 class="video-texto__titulo"> Entenda mais sobre programção no vídeo abaixo  </h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<video src="assets/programacao.mp4.mp4"controls poster="assets/thumbp.jpg"></video>
+		<br>
+	</section>
+
+	<section id="tipos">
+		<h2 class="section__titulo">Lógica e <span class="section__titulo--destaque"> linguagens de progrmação </span></h2>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="tipos">
+		<article class="tipo">
+			<img src="assets/portugol.jpg" class="tipo__thumb" alt="logica">
+			<div class="tipo__info">
+				
+				<div class="info-header">		
+					<h3 class="info-header__titulo">Lógica (Portugol)</h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">Portugol é como um "idioma" de programação simplificado, feito especialmente para quem está começando a aprender sobre programação. Com ele, você pode escrever passo a passo as instruções para resolver problemas, como se estivesse falando em português. É tipo uma forma mais fácil de entender como os computadores funcionam e como criar coisas legais com eles! Com o Portugol, você pode praticar e entender os conceitos básicos sem se preocupar muito com regras complicadas. É uma ótima maneira de começar a mergulhar no mundo da programação!				</p>
+		
+			</div>
+		</article>
+		<article class="tipo">
+			<img src="assets/javas.png" class="tipo__thumb" alt="js">
+			<div class="tipo__info">
+				<div class="info-header">
+					<h3 class="info-header2__titulo">JavaScript </h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">Sabe quando você vê aqueles botões que mudam de cor quando você passa o mouse sobre eles? Ou quando os desenhos se mexem de um jeito legal? Isso acontece porque os desenvolvedores usam uma coisa chamada JavaScript! É como uma varinha mágica que deixa os sites mais divertidos e legais de usar. </p><p>Se você quer fazer seus próprios sites incríveis um dia, aprender JavaScript é uma super ideia!
+				</p>
+					<br>
+					<br>
+					<br>
+					<h3 class="info-body2"> INDICADO PARA : Iniciantes</h3>
+					<br>
+					<h3 class="info-body__2">DIFICULDADE : Relativamente fácil</h3>		
+			</div>
+		</article>
+		<article class="tipo">
+			<img src="assets/phyton.png" class="tipo__thumb" alt="PYTHON">
+			<div class="tipo__info">
+				<div class="info-header">
+					<h3 class="info-header3__titulo">PYTHON </h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">Python é como um kit de ferramentas cheio de peças versáteis que você pode usar para construir coisas incríveis no mundo da computação.</p> <p>Desde jogos e histórias interativas até projetos mais avançados, como a criação de aplicativos e robôs.</p><p>Com Python, você pode ser criativo, desenvolver suas habilidades de programação e dar vida a suas ideias de forma prática e divertida.</p>
+					<br>
+					<br>
+					<br>
+					<h3 class="info-body3"> INDICADO PARA : Iniciantes</h3>
+					<br>
+					<h3 class="info-body__3">DIFICULDADE : Fácil de aprender, ler e escrever</h3>			
+			</div>
+		</article>
+		<article class="tipo">
+			<img src="assets/ch.jpg" class="tipo__thumb" alt="c#">
+			<div class="tipo__info">
+				<div class="info-header">
+					<h3 class="info-header4__titulo">C#</h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">C# é uma linguagem de programação que permite criar aplicativos e jogos no computador. </p><p>É como se fosse a língua que o computador entende para fazer coisas legais acontecerem. </p> <p>Essa linguagem é popular por ser rápido e confiável, garantindo que tudo funcione sem problemas enquanto você usa seus aplicativos ou joga seus jogos favoritos.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h3 class="info-body4">INDICADO PARA : Iniciantes e intermediários </h3>
+					<br>
+					<h3 class="info-body__4">DIFICULDADE : Moderada</h3>		
+			</div>
+		</article>
+		<article class="tipo">
+			<img src="assets/c++.jpg" class="tipo__thumb" alt="c++">
+			<div class="tipo__info">
+				<div class="info-header">
+					<h3 class="info-header5__titulo">C++</h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">O C++ é uma linguagem de programação que oferece um poder incrível para criar jogos incríveis, aplicativos gráficos avançados e até mesmo software para a web. </p> <p> Com ele, você pode começar a construir projetos simples e, à medida que aprende mais, explorar recursos complexos para criar coisas realmente impressionantes.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>	
+					<h3 class="info-body5"> INDICADO PARA : Programadores experientes</h3>
+					<br>
+					<h3 class="info-body__5"> DIFICULDADE : Díficil</h3>		
+			</div>
+		</article>
+		<article class="tipo">
+			<img src="assets/php.jpg" class="tipo__thumb" alt="php">
+			<div class="tipo__info">
+				<div class="info-header">
+					<h3 class="info-header6__titulo">PHP</h3>
+				</div>
+				<br>
+				<br>
+				<p class="info-body">PHP é como a caixa de ferramentas dos construtores de sites, fazendo a mágica acontecer nos bastidores. É usado para criar os botões que clicamos e os formulários que preenchemos online.</p><p>Com frameworks, os desenvolvedores têm conjuntos de ferramentas especiais para construir sites de forma mais rápida e organizada.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h3 class="info-body6">INDICADO PARA : Iniciantes</h3>
+					<br>
+					<h3 class="info-body__6">DIFICULDADE : Bastante fácil de aprender</h3>		
+			</div>
+		</article>
+
+			
+	</div>
+	</section>
+
+	<section>
+		<h2 class="section__titulo">Galeria de <span class="section__titulo--destaque">Comandos</span></h2>
+		<h3 class="galeria_1">A seguir, você verá uma galeria de comandos de cada linguagem programação que você conheceu, começando por: <span class="sub-galeria">lógica (PORTUGOL)</span></h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/portugol0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol1.jpg" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol2.jpg" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol3.jpg" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol4.jpg" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol5.jpg" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol6.1.jpg" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/portugol6.2.jpg" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<section>
+		<h3 class="galeria_2">JavaScript</h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/js0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js1.jpg" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js2.jpg" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js3.jpg" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js4.jpg" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js5.jpg" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js6.jpg" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/js7.jpg" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<section>
+		<h3 class="galeria_3">PYTHON</h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/python0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python1.png" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python2.png" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python3.png" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python4.png" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python5.png" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python6.png" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/python7.png" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<section>
+		<h3 class="galeria_4">C#</h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/cch0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch1.jpg" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch2.jpg" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch3.jpg" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch4.jpg" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch5.jpg" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch6.jpg" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/cch7.jpg" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<section>
+		<h3 class="galeria_5">C++</h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/c0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c1.jpg" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c2.jpg" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c3.jpg" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c4.jpg" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c5.jpg" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c6.jpg" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/c7.jpg" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<section>
+		<h3 class="galeria_6">PHP</h3>
+	</section>
+
+	<section class="galeria" id="galeria">
+		<article class="galeria-item">
+			<img src="assets/pho0.jpg" alt="img" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Comandos</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php1.jpg" alt="img2" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Declaração de Variáveis</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php2.jpg" alt="im3" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Atribuição de Valores</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php3.jpg" alt="im4" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Entrada de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php4.jpg" alt="img5" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Saída de Dados</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php5.jpg" alt="img6" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Controle Condicional</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php6.jpg" alt="img7" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+		
+		<article class="galeria-item">
+			<img src="assets/php7.jpg" alt="img8" class="galeria-item__thumb">
+			<h4 class="galeria-item__local">Estruturas de Repetição</h4>
+		</article>
+
+	</section>
+
+	<footer class="footer">
+		<url class="footer-list">
+			<li class="footer-list__item">
+				<a href="#home" class="footer-list__link">home</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#home" class="footer-list__link">home</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#home" class="footer-list__link">home</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#home" class="footer-list__link">home</a>
+			</li>
+			<li class="footer-list__item">
+				<a href="#galeria" class="footer-list__link">Galeria</a>
+			</li>
+		</url>
+
+
+		<ul class="footer-icons">
+			<li>
+				<a href="https://www.twitter.com" target="_blank" class="footer-icons_icon">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com" target="_blank" class="footer-icons_icon">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com" target="_blank" class="footer-icons_icon">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+			</li>
+		</ul>
+
+		<h1 class="footer-text">BASIC <span class="footer-text2">PROGRAMMING </span><span class="footer-text3">GUIDE</span></h1>
+
+	</footer>
+
+	<div class="modal">
+		<div class="modal__close"><i class="fas fa-times"></i></div>
+
+		<div class="modal__contet">
+			<div class="slider">
+				<div class="slider-image">
+					<div class="slider-image__number">1/8</div>
+					<img src="assets/portugol00.jpg" class="slider-image__img">
+				</div>
+				<div class="slider-buttons">
+					<div class="slider-buttons__btn-prev">
+						<i class="fas fa-chevron-left"></i>
+					</div>
+					<div class="slider-buttons__btn-next">
+						<i class="fas fa-chevron-right"></i>
+					</div>
+				</div>
+				
+			</div>
+			<p class="slider-image-description">Teste </p>
+			<div class="slider-thumbs">
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol00.jpg" alt="Imagem de Conceição do Mato Dentro">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol11.jpg" alt="Imagem de Diamantina">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol22.jpg" alt="Imagem de Tiradentes">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol33.jpg" alt="Imagem de São Lourenço">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol44.jpg" alt="Imagem do Serro">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol55.jpg" alt="Imagem de São Tomé das Letras">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol6.11.jpg" alt="Imagem de Ipoema">
+				</div>
+				<div class="slider-thumbs__img">
+					<img src="assets/portugol6.22.jpg" alt="Imagem de Ouro">
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+		
+	<scpt src="js/scripts.js"></script>
+</body>
+</html>
